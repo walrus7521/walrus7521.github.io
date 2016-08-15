@@ -12,6 +12,14 @@
     <script language = "javascript">
         var today= new Date()
 
+        var count;
+        document.write("Starting Loop" + "<br />");
+        for(count = 0; count < 10; count++){
+            document.write("Current Count : " + count );
+            document.write("<br />");
+        }        
+        document.write("Loop stopped!");
+    
         for(count = 0; count < 10; count++){   
             setTimeout("document.bgColor='white'", 1000)
             setTimeout("document.bgColor='lightpink'", 1500)
